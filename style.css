@@ -1,0 +1,264 @@
+@font-face {
+    font-family: xan;
+    src: url(./xanh-mono-latin-400-normal.ttf);
+}
+
+@font-face {
+    font-family: forum;
+    src: url(./Forum-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    overflow-x: hidden;
+
+}
+
+.page1 {
+    max-height: 90vh;
+}
+
+.navbar {
+    display: flex;
+    padding: 0px 40px;
+    height: 90px;
+    align-items: center;
+    font-size: 8px;
+    gap: 35px;
+    font-family: xan;
+    font-weight: 100;
+}
+
+.contact {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 17px 4px;
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    font-size: 14px;
+    font-family: xan;
+    color: #cecece;
+    background: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 40px;
+    height: 90px;
+    align-items: center;
+    font-size: 8px;
+    /* gap: 65vw; */
+    color: #cecece;
+    /* font-family: "Xanh Mono"; */
+    background: transparent;
+}
+
+h2 {
+    color: #cecece;
+    font-size: 30vh;
+    font-weight: 100;
+    z-index: 1;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    font-family: forum;
+}
+
+h3 {
+    color: #cecece;
+    font-size: 30vh;
+    font-weight: 100;
+    z-index: 3;
+    right: -80px;
+    /* margin: 50px; */
+    padding: 80px 80px;
+    text-align: right;
+    font-family: forum;
+    position: relative;
+
+}
+
+p {
+
+    color: #cecece;
+    font-size: 17px;
+    font-weight: 100;
+    z-index: 1;
+    top: -22vh;
+    left: 40px;
+    width: max-content;
+    text-align: left;
+    position: relative;
+    font-family: xan;
+
+}
+
+.img1 {
+    height: 300px;
+    width: 250px;
+    top: -95vh;
+    right: -68vw;
+    z-index: 2;
+    position: relative;
+
+}
+
+.img2 {
+    height: 250px;
+    width: 200px;
+    top: -78.5vh;
+    z-index: 2;
+    left: -2vw;
+    position: relative;
+
+}
+
+.img3 {
+    height: 440px;
+    width: 370px;
+    top: -72.5vh;
+    right: -11vw;
+    z-index: 2;
+    position: relative;
+
+
+}
+.img4 {
+    height: 680px;
+    width: 700px;
+    position: relative;
+    z-index: 1;
+   
+    left: 59vw;
+    top: 880px;
+}
+.img5 {
+    height: 680px;
+    width: 700px;
+    position: relative;
+    z-index: 1;
+    left: -44vw;
+    top: 1280px;
+}
+.img6 {
+    height: 310px;
+    width: 270px;
+    position: relative;
+    z-index: 2;
+left: -30vw;
+    top: 1100px;
+}
+.img7 {
+    height: 710px;
+    width: 670px;
+    position: relative;
+    z-index: 1;
+    transform: translate(79% , -84%);
+    top: 0px;
+
+}
+
+
+
+.page2 {
+    position: relative;
+    min-height: 90vh;
+    
+}
+
+h4 {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 77px;
+    font-weight: 100;
+    z-index: 2;
+    text-align: center;
+   transform: translate(58%, 120%);
+    width: max-content;
+    font-family: forum;
+    width: 800px;
+}
+.last{
+
+    color: #cecece;
+    font-size: 37px;
+    font-weight: 100;
+    z-index: 1;
+   transform:translateY(-270%);
+  left:50vw;
+    width: 600px;
+    
+    text-align: left;
+    position: relative;
+    font-family: forum;
+
+}
+
+.end{
+    transform: translateY(-120%);
+    z-index: 2;
+    color: white;
+    font-size: 157px;
+    font-weight: 100;
+    z-index: 2;
+    text-align: center;
+position: relative;
+left:10vw;
+    width: max-content;
+    font-family: forum;
+    width: 80vw;
+}
+.img8{
+    height: 140px;
+    width: 140px;
+    margin: 0;
+    padding: 0;
+}
+.img9{
+    height: 140px;
+    width: 140px;
+    margin: 0;
+    padding: 0;
+}
+.lasthead{
+    font-family: forum;
+    font-size: 100px;
+    color: #8d8d8d ;
+    
+    padding: 50px 70px;
+    transform: translateY(-50%);
+}
+.foot{
+    position: relative;
+    right: -65vw;
+    top: -26vh;
+    font-size: 35px;
+    display: flex;
+      color: #8d8d8d ;
+    flex-direction: column;
+    gap: 10px;
+      cursor: pointer;
+
+}
+.foot2{
+    position: relative;
+    right: -85vw;
+    top: -40vh;
+    font-size: 35px;
+    display: flex;
+      color: #8d8d8d ;
+      cursor: pointer;
+    flex-direction: column;
+    gap: 10px;
+
+}
